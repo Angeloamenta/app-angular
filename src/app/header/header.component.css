@@ -1,0 +1,8 @@
+:host {
+    display: block;
+    margin-bottom: 2rem;
+}
+mat-toolbar {
+    background-color: #166bc2;
+    color: white;
+}
