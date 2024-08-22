@@ -4,6 +4,10 @@
             {{post.title}}
         </mat-expansion-panel-header>
         <p>{{post.content}}</p>
+        <mat-action-row>
+            <a mat-button [routerLink]="['/edit',post.id]">Edit</a>
+            <button mat-button (click)="onDelete(post.id)">Delete</button>
+        </mat-action-row>
     </mat-expansion-panel>
 </mat-accordion>
 

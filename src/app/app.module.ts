@@ -24,6 +24,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { PostService } from './posts/posts.sevice';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { PostService } from './posts/posts.sevice';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     FormsModule,
     MatInputModule,
     MatCardModule,
